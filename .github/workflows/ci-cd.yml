@@ -19,7 +19,7 @@ on:
       - '*'
 
 env:
-  IMAGE_NAME: ci-cd
+  IMAGE_NAME: ci-cd-new
 
 jobs:
   CI:
