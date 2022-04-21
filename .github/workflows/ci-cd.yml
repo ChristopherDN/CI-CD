@@ -9,7 +9,7 @@ name: CI/CD
 
 on:
   push: # The branches below must match the branches that you would like to trigger on push requests
-    branches: [ develop ]
+    branches: [ master ]
 
     tags:
       - v*.*.*
