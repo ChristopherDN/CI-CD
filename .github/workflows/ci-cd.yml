@@ -5,7 +5,7 @@
 #
 # Author: Mathias Reker (https://github.com/MathiasReker).
 
-name: CI/CD
+name: CI/CD-New
 
 on:
   push: # The branches below must match the branches that you would like to trigger on push requests
