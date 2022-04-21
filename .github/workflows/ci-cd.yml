@@ -94,7 +94,7 @@ jobs:
           [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo $VERSION | sed -e 's/^v//')
 
           # Use Docker `dev` tag
-          [ "$VERSION" == "develop" ] && VERSION=dev
+          [ "$VERSION" == "master" ] && VERSION=dev
           echo IMAGE_ID=$IMAGE_ID
           echo VERSION=$VERSION
           docker tag $IMAGE_NAME $IMAGE_ID:$VERSION
